@@ -1,0 +1,32 @@
+*{
+    font-size: 40px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center; 
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.counter{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:2rem;
+    height: 500px;
+}
+.count{
+    border:2px solid black;
+    padding: 10px 200px;
+}
+.parity{
+    border:2px solid black;
+    padding: 10px 22px;
+}
+.button{
+    border:2px solid black;
+    border-radius: 1rem;
+    padding:5px 50px;
+    margin:0px 20px;
+}
